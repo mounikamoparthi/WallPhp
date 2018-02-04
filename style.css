@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	color: blue;
+}
+div.container {
+	background: #efefef;
+	width: 800px;
+	min-height: 400px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+div.header {
+	padding: 15px 10px;
+	background: #415E9B;
+	color: white;
+}
+	div.header h3, p {
+		display: inline-block;
+		vertical-align: top;
+	}
+	div.header h3 {
+		width: 80%;
+	}
+	div.header p {
+		padding: 2px 3px 1px 2px;
+	}
+	div.header a {
+		color: white;
+	}
+	div.header a:hover {
+		opacity: .8;
+	}
+div.body {
+	width: 800px;
+	margin: 0 auto;
+	background: #E9EAED;
+	padding: 50px 20px;
+}
+
+/*profile page*/
+
+h4.header {
+	background: #415E9B;
+	color: white;
+	padding: 3px 15px;
+	text-align: left;
+}
+div.col-30, div.col-50, div.col-70 {
+	display: inline-block;
+	vertical-align: top;
+}
+div.col-30, div.col-70 {
+	background: white;
+	min-height: 280px;
+}
+div.col-30 {
+	width: 250px;
+	text-align: center;
+	margin: 0px 5px;
+}
+div.col-70 {
+	width: 480px;
+}
+	div.col-70 h5, p, label {
+		padding: 10px 15px;
+	}
+	div.col-70 p, label  {
+		vertical-align: top;
+		display: inline-block;
+	}
+
+/*Landing page*/
+div.welcome {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+div.col-50 {
+	width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	margin-right: -5px;
+	padding: 15px;
+	border-top: 1px solid #DDD;
+	border-bottom: 1px solid #DDD;
+	height: 285px;
+}
+div.left {
+	border-right: 1px solid #DDD;
+}
+
+/*The wall*/
+
+div.messages {
+	background: #FFFFFF;
+	margin: 15px 5px;
+	padding: 20px 10px 10px 10px;
+}
+	p.message {
+		padding: 10px 10px 5px 20px;
+		display: block;
+		vertical-align: top;
+	}
+	div.messages h4 {
+		display: inline-block;
+		color: #3B5998;
+		margin-top: 20px;
+		padding-left: 10px;
+		width: 80%;
+	}
+	div.messages h5 {
+		display: inline-block;
+		padding-left: 10px;
+	}
+
+div.comments-container {
+	margin: 10px 10px 0px 10px;
+}
+	div.comments-container h5 {
+		padding-left: 15px;
+		padding-bottom: 5px;
+	}
+	div.comments-container div.align-right {
+		margin-top: 5px;
+		margin-right: 5px;
+	}
+	div.align-right {
+		text-align: right;
+	}
+	div.comments-box {
+		background: #E9EAED;
+		margin-bottom: 10px;
+		margin-left: 15px;
+		border-left: 3px solid #DFDFDF;
+	}
+		div.comments-box p {
+			min-width: 560px;
+		}
+		div.comments-box .btn-delete {
+			background: none;
+			border: none;
+			color: salmon;
+			margin-top: 6px;
+		}
+		div.comments-box form {
+			display: inline-block;
+			vertical-align: top;
+		}
+
+/*Input and Textarea Formatting*/
+input {
+	display: block;
+	margin: 10px auto;
+	padding: 3px;
+}
+textarea {
+	border: 1px solid black;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+}
+textarea.message {
+	height: 80px;
+	width: 100%;
+}
+textarea.comment {
+	height: 50px;
+	width: 97%;
+	margin-left: 14px;
+}
+
+/*Button Formatting*/
+button {
+	cursor: pointer;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+button.align-right {
+	margin-top: 5px;
+	width: 150px;
+}
+
+/*Alerts Formatting*/
+div.alert {
+	padding-top: 7px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+.error {
+	color: indianred;
+
+}
+.success {
+	color: seagreen;
+}
+
+/*Images*/
+.profile-pic {
+	display: block;
+	width: 125px;
+	height: 125px;
+	margin: 20px auto 5px auto;
+}
+.tiny {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	vertical-align: top;
+	margin-left: 20px;
+}
